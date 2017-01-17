@@ -53,9 +53,9 @@ $textmessage = isset($update->message->text)?$update->message->text:'';
 $txtmsg = $update->message->text;
 $reply = $update->message->reply_to_message->forward_from->id;
 $stickerid = $update->message->reply_to_message->sticker->file_id;
-$admin = ایدی عدد شما;
-$userbot = "یوزرنیم ربات شما همرا با @";
-$channel = "یوزرنیم کانال همرا با @";
+$admin = ایدی عدد شما;219745562
+$userbot = "یوزرنیم ربات شما همرا با @";PMresanCreator_roBot
+$channel = "یوزرنیم کانال همرا با @";robot_list
 $step = file_get_contents("data/".$from_id."/step.txt");
 $ban = file_get_contents('data/banlist.txt');
 //-------
